@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/wilde/Downloads/mlops_project_buleje/mlruns/459635479363382224/1fcbaa8c1d924911ba90dcc5a3020169/artifacts
+end_time: 1761976637423
+entry_point_name: ''
+experiment_id: '459635479363382224'
+lifecycle_stage: active
+run_id: 1fcbaa8c1d924911ba90dcc5a3020169
+run_name: DecisionTree
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761976630798
+status: 3
+tags: []
+user_id: wilde

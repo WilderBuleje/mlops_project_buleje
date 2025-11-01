@@ -1,0 +1,42 @@
+schema: '2.0'
+stages:
+  preprocess:
+    cmd: python src/preprocessing.py
+    deps:
+    - path: data/raw/Data_CU_Venta.csv
+      hash: md5
+      md5: fdd106a1c6d2b3d1233a5b5527e22dde
+      size: 54525952
+    - path: src/preprocessing.py
+      hash: md5
+      md5: 3f2426ed66b575059e2fa100c7fdbbdb
+      size: 7315
+    outs:
+    - path: data/processed/test_clean.csv
+      hash: md5
+      md5: 45232ff7209f5fc97072bf7b816f188e
+      size: 63439196
+    - path: data/processed/train_clean.csv
+      hash: md5
+      md5: 794e7154901e232dedd88f12ae786a3b
+      size: 165113748
+  train:
+    cmd: python src/train.py
+    deps:
+    - path: data/processed/train_clean.csv
+      hash: md5
+      md5: 794e7154901e232dedd88f12ae786a3b
+      size: 165113748
+    - path: src/train.py
+      hash: md5
+      md5: f3ded71ca8208eff2626461ddec91a1f
+      size: 2922
+    outs:
+    - path: models/decision_tree.pkl
+      hash: md5
+      md5: cbc35a52eeaa5b587d6b33f835fbdce7
+      size: 259265
+    - path: models/logistic_regression.pkl
+      hash: md5
+      md5: 284d16fd152e092c645197f46705b27d
+      size: 12271

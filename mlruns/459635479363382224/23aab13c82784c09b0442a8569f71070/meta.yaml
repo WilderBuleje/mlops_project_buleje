@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/wilde/Downloads/mlops_project_buleje/mlruns/459635479363382224/23aab13c82784c09b0442a8569f71070/artifacts
+end_time: 1761976630784
+entry_point_name: ''
+experiment_id: '459635479363382224'
+lifecycle_stage: active
+run_id: 23aab13c82784c09b0442a8569f71070
+run_name: LogisticRegression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761976613130
+status: 3
+tags: []
+user_id: wilde

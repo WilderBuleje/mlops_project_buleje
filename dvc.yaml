@@ -1,0 +1,17 @@
+stages:
+  preprocess:
+    cmd: python src/preprocessing.py
+    deps:
+    - data/raw/Data_CU_Venta.csv
+    - src/preprocessing.py
+    outs:
+    - data/processed/test_clean.csv
+    - data/processed/train_clean.csv
+  train:
+    cmd: python src/train.py
+    deps:
+    - data/processed/train_clean.csv
+    - src/train.py
+    outs:
+    - models/decision_tree.pkl
+    - models/logistic_regression.pkl

@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/wilde/Downloads/mlops_project_buleje/mlruns/459635479363382224/models/m-fa331cbe1eee4acf9756abaaedfdc037/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.5.0
+model_id: m-fa331cbe1eee4acf9756abaaedfdc037
+model_size_bytes: 11940
+model_uuid: m-fa331cbe1eee4acf9756abaaedfdc037
+prompts: null
+run_id: e0562891ea3a412b89ca7929aa0dfea6
+utc_time_created: '2025-11-01 16:52:27.655666'

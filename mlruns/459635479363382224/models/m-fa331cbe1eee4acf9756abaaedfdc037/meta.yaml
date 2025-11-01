@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/wilde/Downloads/mlops_project_buleje/mlruns/459635479363382224/models/m-fa331cbe1eee4acf9756abaaedfdc037/artifacts
+creation_timestamp: 1762015947568
+experiment_id: '459635479363382224'
+last_updated_timestamp: 1762015955608
+model_id: m-fa331cbe1eee4acf9756abaaedfdc037
+model_type: null
+name: model
+source_run_id: e0562891ea3a412b89ca7929aa0dfea6
+status: 2
+status_message: null
